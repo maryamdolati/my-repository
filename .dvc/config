@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = C:/Users/LENOVO/dvcstore
+['remote "storage"']
+    url = s3://mybucket/dvcstore

@@ -1,0 +1,9 @@
+stages:
+  evaluate:
+    cmd: python evaluate.py model.pkl data/features
+    deps:
+    - data/features
+    - evaluate.py
+    - model.pkl
+    outs:
+    - eval

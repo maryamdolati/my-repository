@@ -1,5 +1,6 @@
 [core]
     remote = myremote
+    autostage = true
 ['remote "myremote"']
     url = C:/Users/LENOVO/dvcstore
 ['remote "storage"']
